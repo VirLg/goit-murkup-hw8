@@ -87,7 +87,7 @@ ol {
 }
 
 .index-hero-fon {
-  background-image: url(./images/bg-foto.jpg);
+  background-image: url(../images/bg-foto.jpg);
   max-width: 100%;
   height: 600px;
   background-position: center;
