@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашнє завдання</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header flex">
+      <!--================ Navigation===================== -->
+
+      <div class="flex container">
+        <nav class="flex">
+          <a class="nav-logo" href="./index.html">
+            <span class="logo-span">Web</span>Studio</a
+          >
+
+          <ul class="list link ul-nav flex">
+            <li class="item">
+              <a href="./index.html" class="nav">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="nav current">Потрфоліо</a>
+            </li>
+            <li class="item">
+              <a href="" class="nav">Контакти</a>
+            </li>
+          </ul>
+
+          <!-- </nav> -->
+        </nav>
+        <!===================Autorizaciya====================== >
+        <ul class="nav-aut list flex">
+          <li class="mailto-post">
+            <a class="link flex link-nav-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+              <svg class="mailto-item">
+                <use href="./images/sprite.svg#icon-header-1"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mailto-fone">
+            <a class="link link-nav-tel flex" href="tel:+380961111111"
+              >+38 096 111 11 11
+              <svg class="mailto-tel">
+                <use href="./images/sprite.svg#icon-header-2" height="16"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--line-->
+
+      <!======================Projects====================>
+      <section class="section">
+        <h1 class="section-title-portfolio visually-hidden">Portfolio</h1>
+        <div class="container">
+          <ul class="list flex list-project">
+            <li class="item-project">
+              <button type="button" class="button-seconary">Все</button>
+            </li>
+            <li class="item-project">
+              <button type="button" class="button-seconary">Веб-сайти</button>
+            </li>
+            <li class="item-project">
+              <button type="button" class="button-seconary">Додатки</button>
+            </li>
+            <li class="item-project">
+              <button type="button" class="button-seconary">Дизайн</button>
+            </li>
+            <li class="item-project">
+              <button type="button" class="button-seconary">Маркетинг</button>
+            </li>
+          </ul>
+
+          <!===================Card=====================>
+
+          <ul class="ul list flex-project">
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/img.jpg"
+                    alt="main page"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Проєкт Prime</h2>
+                  <p class="pharagraf-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgone.jpg"
+                    alt="basketboll"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="pharagraf-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgtwo.jpg"
+                    alt="fish"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Ресторан Seafoode</h2>
+                  <p class="pharagraf-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgthree.jpg"
+                    alt="headphones"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Проєкт Prime</h2>
+                  <p class="pharagraf-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgfour.jpg"
+                    alt="two boxes"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Проєкт Boxes</h2>
+                  <p class="pharagraf-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgfive.jpg"
+                    alt="monitor"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
+                  <p class="pharagraf-portfolio">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgsix.jpg"
+                    alt="two book pages"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Видання Limited Edition</h2>
+                  <p class="pharagraf-portfolio">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgseven.jpg"
+                    alt="tisket"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Проект LAB</h2>
+                  <p class="pharagraf-portfolio">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-card card-effect">
+              <a class="link portfolio" href="">
+                <div class="card-overlay flex">
+                  <div class="exempl">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Necessitatibus veritatis quidem, cum itaque alias rerum
+                      enim blanditiis sunt, distinctio, numquam sed! Dicta
+                      sapiente consequatur iure eum dolorem quia ipsum porro?
+                    </p>
+                  </div>
+                  <img
+                    class="img-view"
+                    src="./images/imgeight.jpg"
+                    alt="lop top"
+                    width="370"
+                  />
+                </div>
+                <div class="border">
+                  <h2 class="portfolio-title">Growing Business</h2>
+                  <p class="pharagraf-portfolio">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-flex container">
+        <div class="footer-1">
+          <a href="./index.html" class="footer-logo">
+            <span class="logo-span">Web</span>Studio</a
+          >
+          <address class="address">
+            <ul class="footer-ul list">
+              <li class="footer-item">
+                <a
+                  class="footer-map"
+                  href="https://goo.gl/maps/ebpLASN4Ghw9Ps9j9"
+                  target="_blank"
+                  rel="noopener"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-contact" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-item">
+                <a class="footer-contact" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <p class="comin-title">Приєднуйтесь</p>
+
+          <ul class="list flex employee-network">
+            <li>
+              <a
+                class="social-item"
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  lang="en"
+                  aria-label="instagram link"
+                  class="social-icon-footer"
+                >
+                  <use
+                    href="./images/sprite.svg#icon-instagram"
+                    height="20"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-item"
+                href="https://twitter.com/?lang=uk"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  lang="en"
+                  aria-label="twitter link"
+                  class="social-icon-footer"
+                >
+                  <use
+                    href="./images/sprite.svg#icon-twitter"
+                    height="20"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                class="social-item"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  lang="en"
+                  aria-label="facebook link"
+                  class="social-icon-footer"
+                >
+                  <use
+                    href="./images/sprite.svg#icon-facebook"
+                    height="20"
+                  ></use></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                class="social-item"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener"
+              >
+                <svg
+                  lang="en"
+                  aria-label="linkedin link"
+                  class="social-icon-footer"
+                >
+                  <use
+                    href="./images/sprite.svg#icon-linkedin"
+                    height="20"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <!-- ==============FOOTER FORM======================== -->
+        <div class="footer-form">
+          <p class="comin-title">Підпишись на розсилку</p>
+          <form>
+            <input type="email" class="footer-form-item" placeholder="E-mail" />
+            <button submit class="link footer-form-link" type="button">
+              Підписатися
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+
+.logo__span {
+    color: var(--accent-text-color);
+
+}
+.logo {
+color: var(--title-text-color);
+
+
+
+&:focus ,
+
+&:hover {
+    color: var(--accent-text-color);
+}
+}

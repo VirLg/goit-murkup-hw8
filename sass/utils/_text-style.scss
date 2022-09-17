@@ -1,0 +1,42 @@
+%determtext {
+
+    font-family: Raleway,
+        sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+%main-text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+%title-two {
+    margin: 0;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+%title-three {
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
