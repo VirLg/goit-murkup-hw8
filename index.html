@@ -20,45 +20,51 @@
   <body>
     <!--Header-->
     <header class="container">
-      <!--================ Navigation===================== -->
+      <div class="container">
+        <!--================ Navigation===================== -->
 
-      <nav class="block flex">
-        <a class="logo link" href="./index.html">
-          <span class="logo__span">Web</span>Studio</a
-        >
+        <nav class="block flex">
+          <a class="logo link" href="./index.html">
+            <span class="logo__span">Web</span>Studio</a
+          >
 
-        <ul class="block__list nav flex">
-          <li>
-            <a href="./index.html" class="block__link current">Студия</a>
+          <ul class="block__list nav flex">
+            <li>
+              <a href="./index.html" class="block__link current">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="block__link">Потрфоліо</a>
+            </li>
+            <li>
+              <a href="./index-test.html" class="block__link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!===================Autorizaciya====================== >
+        <ul class="block block__list autorizator">
+          <li class="block__item">
+            <a class="block__link flex-revers" href="mailto:info@devstudio.com"
+              >info@devstudio.com
+              <svg class="mailto-item">
+                <use href="./images/sprite.svg#icon-header-1"></use>
+              </svg>
+            </a>
           </li>
-          <li>
-            <a href="./portfolio.html" class="block__link">Потрфоліо</a>
-          </li>
-          <li>
-            <a href="./index-test.html" class="block__link">Контакти</a>
+
+          <li class="block__item">
+            <a class="block__link flex-revers" href="tel:+380961111111"
+              >+38 096 111 11 11
+              <svg class="mailto-tel">
+                <use href="./images/sprite.svg#icon-header-2"></use>
+              </svg>
+            </a>
           </li>
         </ul>
-      </nav>
-      <!===================Autorizaciya====================== >
-      <ul class="block block__list autorizator">
-        <li class="block__item">
-          <a class="block__link flex-revers" href="mailto:info@devstudio.com"
-            >info@devstudio.com
-            <svg class="mailto-item">
-              <use href="./images/sprite.svg#icon-header-1"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="block__item">
-          <a class="block__link flex-revers" href="tel:+380961111111"
-            >+38 096 111 11 11
-            <svg class="mailto-tel">
-              <use href="./images/sprite.svg#icon-header-2"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
+        <svg>
+          <use href="./images/sprite.svg#icon-burger"></use>
+          <use href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </div>
     </header>
     <!--Main-->
     <main>
