@@ -1,0 +1,27 @@
+.header-btn {
+
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: 1px solid red;
+
+
+}
+
+.icon-cross {
+    display: none;
+    background-color: red;
+}
+
+
+.icon-cross {
+    fill: red;
+    width: 100px;
+}
+
+.menu-button {
+    display: block;
+    margin: 40px;
+}

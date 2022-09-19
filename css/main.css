@@ -123,7 +123,7 @@ ol {
     width: 738px;
     grid-template-columns: repeat(2, 1fr);
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .index-skills__ul .index-skills__frame {
     width: 354px;
@@ -208,7 +208,7 @@ ol {
     width: 738px;
     grid-template-columns: repeat(2, 1fr);
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
     row-gap: 30px;
   }
   .employee-list .employee-list__thumb {
@@ -221,7 +221,7 @@ ol {
     width: 1170px;
     grid-template-columns: repeat(4, 1fr);
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   .employee-list .employee-list__thumb {
     width: 270px;
@@ -251,7 +251,7 @@ ol {
 .main-clients {
   display: grid;
   -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
   row-gap: 30px;
 }
 @media screen and (max-width: 479px) {
@@ -292,4 +292,4 @@ ol {
     width: 170px;
     height: 92px;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
